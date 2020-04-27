@@ -1,5 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
+/**
+ * Todo esse CSS será compartilhado para toda a aplicação
+ */
 export default createGlobalStyle`
   *{
     margin: 0;
