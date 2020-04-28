@@ -74,6 +74,10 @@ export const List = styled.ul`
     justify-content: space-between;
     align-items: center;
 
+    span {
+      flex: 1;
+    }
+
     /* Aplica estilização em todos os itens menos no primeiro */
     & + li {
       border-top: 1px solid #eee;
@@ -81,6 +85,13 @@ export const List = styled.ul`
     a {
       color: #7159c1;
       text-decoration: none;
+    }
+
+    button {
+      border: 0;
+      background: #fff;
+      color: #7159c1;
+      margin-left: 10px;
     }
   }
 `;
